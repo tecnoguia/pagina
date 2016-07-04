@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="wholeword"/>
+		<item value="padding" key="selection"/>
+		<list key="findhistory">
+			<item value="padding"/>
+			<item value="15"/>
+			<item value="carr"/>
+			<item value="serv"/>
+			<item value="CarrConten"/>
+			<item value="CarrContent"/>
+			<item value=".jpg"/>
+			<item value="servi"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="247" key="DIALOG_Y_ORIGIN"/>
+		<item value="452" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>
