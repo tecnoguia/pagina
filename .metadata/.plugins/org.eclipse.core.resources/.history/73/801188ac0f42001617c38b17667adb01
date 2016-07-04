@@ -1,0 +1,31 @@
+<?php
+  $name = $_POST['name'];
+  $correo = $_POST['correo'];
+  $telefono = $_POST['telefono'];
+  $comentarios =$_POST['comentarios'];
+?>
+
+<?php
+    $email_from = 'hb.casper@gmail.com';
+ 
+    $email_subject = "Nuevo mensaje recibido";
+ 
+    $email_body = "Has recibido un nuevo mensaje de $name.\n".
+    					
+                            "Here is the message:\n $message.\n".
+                            "Su telefono es:\n $telefono.".
+?>
+
+mail(to,subject,message,headers)
+
+<?php
+ 
+  $to = "hb.casper@gmail.com";
+ 
+  $headers = "From: $email_from \r\n";
+ 
+  $headers .= "Reply-To: $visitor_email \r\n";
+ 
+  mail($to,$email_subject,$email_body,$headers);
+ 
+ ?>

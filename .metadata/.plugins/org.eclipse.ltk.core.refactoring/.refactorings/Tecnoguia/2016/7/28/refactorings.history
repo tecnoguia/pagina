@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Tecnoguia/php/form-to-email&apos; to &apos;form-to-email.php&apos;" description="Rename resource &apos;form-to-email&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="php/form-to-email" name="form-to-email.php" stamp="1467653893777" updateReferences="true"/>
+</session>

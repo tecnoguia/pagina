@@ -404,14 +404,17 @@
 			</div>
 			<div id="contacto" class="contacto">
 				<h1 class="dark">CONTACTO</h1>
-				<br>	<br>	
+				
+			
 				<div class="row">
 
 					<div class="col-md-1"></div>
 					<DIv class="col-md-4 centerall">
+					
+					<img  height="80"  src="img/logo.png"> 
 
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5105289358658!2d-89.64669168566172!3d21.012248993719005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5674168af3edff%3A0x4b0edd99b5c31e35!2sTecnoGu%C3%ADa+Empresarial!5e0!3m2!1ses-419!2smx!4v1467046078529" 
-						width="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5105289358658!2d-89.64669168566172!3d21.012248993719005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5674168af3edff%3A0x4b0edd99b5c31e35!2sTecnoGu%C3%ADa+Empresarial!5e0!3m2!1ses-419!2smx!4v1467046078529"
+						width="100%" height="80%" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 						<br>
 						<br>
@@ -424,10 +427,10 @@
 								San Vicente Chuburná
 								<br>
 								Mérida, Yucatán
-								<br>
+
 								C.P.97206
 								<br>
-<br>
+								<br>
 								Tel.  999 9 85 64 74
 							</p>
 						</div>
@@ -443,60 +446,75 @@
 						<br>
 					</DIv>
 					<div class="col-md-1"></div>
-					<div class="col-md-4">
+					<div class="col-md-5">
+					<br>
 						<h4>Envíanos un mensaje:</h4>
-						<form class="form-horizontal" role="form">
+						<form method="post" name="emailform" action="php/form-to-email.php" class="form-horizontal" role="form">
 							<div class="form-group">
 
 								<label class="control-label col-sm-2" for="name">Nombre</label>
 
-								<input class="form-control col-sm-10 tge-form" type="text" id="name" placeholder="Escribe tu nombre">
+								<input class="form-control col-sm-10 tge-form" type="text" name="name" placeholder="Escribe tu nombre">
 								<br>
 								<label class="control-label col-sm-2" for="correo">Correo</label>
-								<input class="form-control col-sm-10 tge-form" type="email" id="correo" placeholder="Escribe tu correo">
+								<input class="form-control col-sm-10 tge-form" type="email" name="email" placeholder="Escribe tu correo">
 								<br>
 								<label class="control-label col-sm-2" for="telefono">Teléfono</label>
-								<input class="form-control col-sm-10 tge-form" type="tel" id="telefono" placeholder="Escribe tu teléfono">
+								<input class="form-control col-sm-10 tge-form" type="tel" name="telefono" placeholder="Escribe tu teléfono">
 								<br>
 
 								<label class="control-label col-sm-2" for="comentarios">Comentarios</label>
-								<textarea class="form-control col-sm-10 tge-form" rows="5" id="comentarios" placeholder="Escribe tus comentarios">
+								<textarea class="form-control col-sm-10 tge-form" rows="5" name="comentarios" placeholder="Escribe tus comentarios">
 						</textarea>
 								<br>
 
-								<button type="submit" class="btn btn-tge pull-right">
+<br><button type="submit" class="btn btn-tge pull-right">
 									Enviar
 								</button>
+								
 							</div>
+							
 						</form>
 
 					</div>
-				<div class="col-md-1"></div>
+					<div class="col-md-1"></div>
 				</div>
-				<div class="row">
-<!-- Trigger the modal with a button -->
-<a type="button" class="text-center btn-info btn-lg" data-toggle="modal" data-target="#aviso">Aviso de privacidad</a>
-
-<!-- Modal -->
-<div id="aviso" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content aviso">
-     
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h2 class="modal-title text-center">AVISO DE PRIVACIDAD</h2>
-    
-      <div class="modal-body">
-        <p>El objetivo de contactarle a través de nuestros agentes de telemarketing especializados o vía correo electrónico es generar una vínculo comercial de su empresa con marcas de tecnología, sin embargo, no es nuestra voluntad ocasionar algún perjucio, por lo que usted puede solicitar en cualquier momento ser eliminado de nuestra base de datos enviando un correo con sus datos a eliminar@tecnoguiaempresarial.com.mx  o de manera automática en el siguiente link: CANCELACIÓN</p>
-      </div>
-    <br>
-        <button type="button" class="btn btn-tge pull-right" data-dismiss="modal">Cerrar</button>
-          </div>
-
-  </div>
-</div>
+				<div class="row text-center">
+					<!-- Trigger the modal with a button -->
+					<a type="button" data-toggle="modal" data-target="#aviso">Aviso de privacidad</a>
 					
+		
+
+					<!-- Modal -->
+					<div id="aviso" class="modal fade" role="dialog">
+						<div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content aviso">
+
+								
+								
+
+								<div class="modal-body">
+								
+								<button type="button" class="close" data-dismiss="modal">
+									&times;
+								</button>
+								<h2 class="modal-title text-center">AVISO DE PRIVACIDAD</h2><br>
+									<p>
+										El objetivo de contactarle a través de nuestros agentes de telemarketing especializados o vía correo electrónico es generar una vínculo comercial de su empresa con marcas de tecnología, sin embargo, no es nuestra voluntad ocasionar algún perjucio, por lo que usted puede solicitar en cualquier momento ser eliminado de nuestra base de datos enviando un correo con sus datos a <a href"eliminar@tecnoguiaempresarial.com.mx">eliminar@tecnoguiaempresarial.com.mx</a> o de manera automática en el siguiente link: <a href="http://tecnoguiaempresarial.com.mx/cancelarregistro/">CANCELACIÓN</a>
+									</p>
+									<button type="button" class="btn btn-tge pull-right" data-dismiss="modal">
+									Cerrar
+								</button>
+								</div>
+								<br>
+								
+							</div>
+
+						</div>
+					</div>
+
 				</div>
 			</div>
 
