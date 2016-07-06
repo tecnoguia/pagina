@@ -16,10 +16,11 @@ body, html {
 #inicio, #nosotros, #servicios, #clientes, #contacto {
 
 	position: relative;
-	height: 100%;
+	min-height: 100%;
+	max-height: 100%;
 	padding-top: 3%;
-	width: 100%;
-	display: table;
+		width: 100%;
+
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -28,11 +29,14 @@ body, html {
 
 /*Hidden sections -----------------------------------*/
 
-#promotores, #proxeven, #galeria, #edicionesAnt, {
+#promo, #proximos, #galeria, #anteriores{
 
-	padding-top: 10%;
-	height: 100%;
-	width: 100%;
+	
+	
+	min-height:100%;
+
+	padding-top: 3%;
+
 }
 
 /* Text configurtion -----------------------------------*/
@@ -185,7 +189,7 @@ hr {
 	position: absolute;
 	z-index: 2;
 	width: 100%;
-	margin-top: -5%;
+	
 	height: 100%;
 	background-color: black;
 	opacity: 0.7;
@@ -201,6 +205,12 @@ video {
 }
 
 /* Others -----------------------------------*/
+
+.promotor{
+width:100px; 
+margin: auto;
+
+}
 
 .form-group {
 	padding: 15px;
@@ -274,7 +284,32 @@ video {
 }
 
 
+.aviso {
 
+	padding: 15px;
+	background-color: #2B2B2B !important;
+}
+.imgservicios{
+
+position:relative;
+z-index:1;
+display:inline-block;
+height:100vh !important;
+min-width:100% !important;
+
+}
+.over{
+position: relative;
+z-index:100;
+top:-400px;
+
+}
+#HeaderServ{
+position: relative;
+z-index:200;
+top:150px;
+color: white !important;
+}
 
 #menulogo {
 	margin-top: -10px;
@@ -358,32 +393,5 @@ background: #F51813;
 66% {
 background: #C53C36;
 }
-}
-.aviso {
-
-	padding: 15px;
-	background-color: #2B2B2B !important;
-}
-.imgservicios{
-
-position:relative;
-z-index:1;
-top:-700px;
-
-height:100% !important;
-width:100% !important;
-
-}
-.over{
-position: relative;
-z-index:100;
-top:250px;
-
-}
-#HeaderServ{
-position: relative;
-z-index:200;
-top:200px;
-color: white !important;
 }
 

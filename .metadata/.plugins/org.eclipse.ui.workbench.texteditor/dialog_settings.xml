@@ -2,19 +2,19 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
-		<item value="false" key="casesensitive"/>
 		<item value="false" key="wholeword"/>
-		<item value="padding" key="selection"/>
+		<item value=".over" key="selection"/>
 		<list key="findhistory">
-			<item value="padding"/>
-			<item value="TGE"/>
-			<item value="15"/>
-			<item value="carr"/>
+			<item value=".over"/>
+			<item value=" over"/>
+			<item value="over"/>
 			<item value="serv"/>
-			<item value="CarrConten"/>
-			<item value="CarrContent"/>
-			<item value=".jpg"/>
+			<item value="Servicios"/>
+			<item value="CarrServicios"/>
+			<item value="img"/>
+			<item value="carr"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">

@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Tecnoguía Empresarial</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-social.css">
+		<link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,800" rel="stylesheet">
+		<script src="https://use.fontawesome.com/ca2e1f19c6.js"></script>
+
+	</head>
+
+	<body onload="loader()" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+		<div id="loader">
+
+			<div class="loading">
+
+			</div>
+			<H2 class="text-center" id="cargando">CARGANDO</H2>
+		</div>
+
+		<div id="content">
+
+			<!---PARALLAX CODE
+			<div id="parallax-bg-3" class="parallax-bg">
+			<H1>TEC</H1>
+			</div>
+			<div id="parallax-bg-2" class="parallax-bg">
+			<div id="bg-2-1">BK2-1</div>
+			<H1>NO</H1>
+			</div>
+			<div id="parallax-bg-1" class="parallax-bg">
+			<H1>GUIA</H1>
+			</div>
+			------------------------------>
+
+			<!-- navigation panel -->
+			<div class="navigation">
+
+				<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+					<div  class="container-fluid ">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-main">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#inicio"> <img  id="menulogo" height="40" id="header" src="img/logo.png"> </a>
+
+							<button type="button" class="btn btn-tge" >
+								<A href="http://tecnoguiaempresarial.com.mx/archivos/revista-tecnoguia-edicion4.pdf" target="_blank">
+								<p>
+									Descarga la ultima	revista
+								</p> </A>
+							</button>
+
+						</div>
+
+						<div id="menu" class="collapse navbar-collapse" id="navbar-collapse-main">
+							<ul  class="nav navbar-nav navbar-right">
+								<li>
+									<a href="#inicio">INICIO</a>
+								</li>
+								<li>
+									<a href="#nosotros">NOSOTROS</a>
+								</li>
+								<li>
+									<a href="#servicios">SERVICIOS</a>
+								</li>
+								<li>
+									<a href="#clientes">CLIENTES</a>
+								</li>
+								<li>
+									<a href="#contacto">CONTACTO</a>
+								</li>
+
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
+			</div>
+
+			<div id="inicio" class="inicio">
+				<div id="blackbgd"></div>
+				<video autoplay id="bgvid" loop>
+
+					<source src="http://ak2.picdn.net/shutterstock/videos/3326042/preview/stock-footage-montage-collection-of-young-multi-ethnic-business-people-using-modern-wireless-tablet-communication.mp4" type="video/webm">
+					<source src="http://ak2.picdn.net/shutterstock/videos/3326042/preview/stock-footage-montage-collection-of-young-multi-ethnic-business-people-using-modern-wireless-tablet-communication.mp4" type="video/mp4">
+				</video>
+
+				<img id="logo" class="img-responsive" src="img/logo.png">
+
+				<!-----------CARRUSEL----------------->
+
+				<div id="subtitulos" class="carousel slide" data-ride="carousel">
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<h1 class="dark">Texto importante 1</h1>
+						</div>
+
+						<div class="item">
+							<h1 class="dark">Texto importante 2</h1>
+
+						</div>
+
+						<div class="item">
+							<h1 class="dark">Texto importante 3</h1>
+
+						</div>
+
+						<div class="item">
+							<h1 class="dark">Texto importante 4</h1>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div id="nosotros" class="nosotros">
+				<div class="row">
+					<div class="col-md-4"></div>
+					<div class="col-md-4">
+						<h1>NOSOTROS</h1>
+					</div>
+					<div class="col-md-4"></div>
+				</div>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-3">
+						<img class="imgnos" src="http://1.bp.blogspot.com/-fvKrSGc_GgI/Ua44DajSzqI/AAAAAAAAAvM/g3bYbnPInCU/s1600/team-spirit.jpg">
+					</div>
+					<div class="col-md-1"></div>
+					<div class="col-md-6">
+						<H3>SUBTITULO MUY IMPORTANTE</H3>
+						<HR>
+						<p>
+							Los fundadores de TecnoGuía Empresarial tenemos 20 años de experiencia desarrollándonos en la Industria de Tecnologías de la Información en México. Colaborando con fabricantes, mayoristas y distribuidores.  Y enfocados en la región sureste desde hace 11 años, aunque el alcance en la mayoría de nuestras estrategias es nacional.
+						</p>
+						<p>
+							Los fundadores de TecnoGuía Empresarial tenemos 20 años de experiencia desarrollándonos en la Industria de Tecnologías de la Información en México. Colaborando con fabricantes, mayoristas y distribuidores.  Y enfocados en la región sureste desde hace 11 años, aunque el alcance en la mayoría de nuestras estrategias es nacional.
+						</p>
+
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			</div>
+			<div id="HeaderServ">
+				<h1 >SERVICIOS</h1>
+				<div class="col-md-10 col-md-offset-1">
+					<ul class="list">
+						<LI>
+							<a href="#servicios" data-slide-to="0" class="active"> Desarrollo de marcas </a>
+						</LI>
+						<li>
+							<a href="#servicios" data-slide-to="1">Eventos</a>
+						</li>
+						<li>
+							<a href="#servicios" data-slide-to="2">Contact Center</a>
+						</li>
+						<li>
+							<a href="#servicios" data-slide-to="3">Revista</a>
+						</li>
+						<li>
+							<a href="#servicios" data-slide-to="4">Mailing</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div id="servicios" class="servicios carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#servicios" data-slide-to="0" class="active"></li>
+					<li data-target="#servicios" data-slide-to="1"></li>
+					<li data-target="#servicios" data-slide-to="2"></li>
+					<li data-target="#servicios" data-slide-to="3"></li>
+					<li data-target="#servicios" data-slide-to="4"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img class="imgservicios" src="img/FondoServ/Desarrollo.jpg" />
+
+						<div class="col-md-6 col-md-offset-3 over">
+							<h2>Desarrollo de Marcas</h2>
+							<P>
+								Desarrollo e implementación de estrategias comerciales en la región
+
+								Equipo de promotores especializados que se dedican a visitar canales de distribución, mayoristas y cliente final, capacitar, promocionar y generar ventas para nuestras marcas representadas y el puntual seguimiento a leads especiales.
+
+								Reresentación en el sureste de  Verbatim, Provision ISR, Silimex, TP-Link, Compucenter de México y CDP.
+
+							</P>
+							<button type="button" class="btn btn-tge btn-promo pull-left goto" href="#promo" >
+								Contactar promotores
+							</button>
+
+						</div>
+
+					</div>
+
+					<div class="item">
+						<img class="imgservicios" src="img/FondoServ/Eventos.jpg" />
+						<div  class="col-md-6 col-md-offset-3 over">
+
+							<h2>Eventos</h2>
+							<p>
+								Desarrollo e implementación de estrategias comerciales en la región
+
+								Equipo de promotores especializados que se dedican a visitar canales de distribución, mayoristas y cliente final, capacitar, promocionar y generar ventas para nuestras marcas representadas y el puntual seguimiento a leads especiales.
+
+								Reresentación en el sureste de  Verbatim, Provision ISR, Silimex, TP-Link, Compucenter de México y CDP.
+							</p>
+							<button type="button" class="btn btn-tge btn-proximos pull-left goto" data-toggle="collapse" href="#proximos">
+								<a href="#proximos">Proximos eventos</a>
+							</button>
+
+							<button type="button" class="btn btn-info pull-left" data-toggle="collapse" data-target="#promotores">
+								<a href="#promotores">Galeria de eventos</a>
+							</button>
+						</div>
+
+					</div>
+
+					<div class="item">
+						<img class="imgservicios" src="img/FondoServ/Contact.jpg" />
+						<div  class="col-md-6 col-md-offset-3 over" >
+
+							<h2>Contact Center</h2>
+							<p>
+								Desarrollo e implementación de estrategias comerciales en la región
+
+								Equipo de promotores especializados que se dedican a visitar canales de distribución, mayoristas y cliente final, capacitar, promocionar y generar ventas para nuestras marcas representadas y el puntual seguimiento a leads especiales.
+
+								Reresentación en el sureste de  Verbatim, Provision ISR, Silimex, TP-Link, Compucenter de México y CDP.
+							</p>
+						</div>
+
+					</div>
+
+					<div class="item">
+						<img class="imgservicios" src="img/FondoServ/Revista.jpg" />
+						<div  class="col-md-6 col-md-offset-3 over" >
+							<h2>Revista</h2>
+							<p>
+								Desarrollo e implementación de estrategias comerciales en la región
+
+								Equipo de promotores especializados que se dedican a visitar canales de distribución, mayoristas y cliente final, capacitar, promocionar y generar ventas para nuestras marcas representadas y el puntual seguimiento a leads especiales.
+
+								Reresentación en el sureste de  Verbatim, Provision ISR, Silimex, TP-Link, Compucenter de México y CDP.
+							</p>
+
+							<button type="button" class="btn btn-info pull-left" data-toggle="collapse" data-target="#promotores">
+								<a href="#promotores">Descargar ediciones anteriores</a>
+							</button>
+						</div>
+
+					</div>
+					<div class="item">
+						<img class="imgservicios" src="img/FondoServ/Mailing.jpg" />
+						<div  class="col-md-6 col-md-offset-3 over" >
+							<h2>Mailing</h2>
+							<p>
+								Desarrollo e implementación de estrategias comerciales en la región
+
+								Equipo de promotores especializados que se dedican a visitar canales de distribución, mayoristas y cliente final, capacitar, promocionar y generar ventas para nuestras marcas representadas y el puntual seguimiento a leads especiales.
+
+								Reresentación en el sureste de  Verbatim, Provision ISR, Silimex, TP-Link, Compucenter de México y CDP.
+							</p>
+						</div>
+
+					</div>
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#servicios" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+				<a class="right carousel-control" href="#servicios" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+			</div>
+
+			<div id="promo" style="padding-top: 3%" class="collapse promo ">
+
+				<h1>Promotores</h1>
+				<p class="text-center">
+					Contacta con los promotores de cada marca.
+					<BR>
+					Marca al numero: 999 2 86 43 07 y solicita la extensión correspondiente
+				</p>
+
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 ">
+						<div class="col-md-3"><img src="img/Clientes/Provision.jpg" class="logo img-responsive">
+							<img  class=" col-md-8 col-md-offset-2 img-responsive circle" src="http://www.bp.com/content/bp/en/global/corporate/about-bp/board-and-executive-management/executive-team/jcr:content/article_dropzone/article_dropzone/promobox_0.img.288.high.jpg/1443607242297.jpg">
+							<br>
+							
+							
+
+							<P class="text-center">
+								Isaac Cura
+								<br>
+								icura@tge.com.mx
+								<br>
+								Ext. 101
+							</P>
+						</div>
+						<div class="col-md-3"><img src="img/Clientes/Verbatim.JPG" class="logo img-responsive">
+							<img  class=" col-md-8 col-md-offset-2 img-responsive circle" src="http://www.bp.com/content/bp/en/global/corporate/about-bp/board-and-executive-management/executive-team/jcr:content/article_dropzone/article_dropzone/promobox_0.img.288.high.jpg/1443607242297.jpg">
+
+							<br>
+							<P class="text-center">
+								Isaac Cura
+								<br>
+								icura@tge.com.mx
+								<br>
+								Ext. 101
+							</P>
+						</div>
+						<div class="col-md-3"><img src="img/Clientes/Panda.jpg" class="logo img-responsive">
+							<img  class="col-md-8 col-md-offset-2 circle" src="http://www.bp.com/content/bp/en/global/corporate/about-bp/board-and-executive-management/executive-team/jcr:content/article_dropzone/article_dropzone/promobox_0.img.288.high.jpg/1443607242297.jpg">
+
+							<br>
+							<P class="text-center">
+								Isaac Cura
+								<br>
+								icura@tge.com.mx
+								<br>
+								Ext. 101
+							</P>
+						</div>
+						<div class="col-md-3"><img src="img/Clientes/CDP.jpg" class="logo img-responsive">
+							<img  class="col-md-8 col-md-offset-2 img-responsive circle" src="http://www.bp.com/content/bp/en/global/corporate/about-bp/board-and-executive-management/executive-team/jcr:content/article_dropzone/article_dropzone/promobox_0.img.288.high.jpg/1443607242297.jpg">
+
+							<br>
+							<P class="text-center">
+								Isaac Cura
+								<br>
+								icura@tge.com.mx
+								<br>
+								Ext. 101
+							</P>
+						</div>
+
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 ">
+						<div class="col-md-3"><img src="img/Clientes/Fujitsu.jpg" class="logo img-responsive">
+							<img  class=" col-md-8 col-md-offset-2 img-responsive circle" src="http://www.bp.com/content/bp/en/global/corporate/about-bp/board-and-executive-management/executive-team/jcr:content/article_dropzone/article_dropzone/promobox_0.img.288.high.jpg/1443607242297.jpg">
+							<br>
+							<P class="text-center">
+								Isaac Cura
+								<br>
+								icura@tge.com.mx
+								<br>
+								Ext. 101
+							</P>
+						</div>
+						<div class="col-md-3"><img src="img/Clientes/Panasonic.jpg" class="logo img-responsive">
+							<img  class=" col-md-8 col-md-offset-2 img-responsive circle" src="http://www.bp.com/content/bp/en/global/corporate/about-bp/board-and-executive-management/executive-team/jcr:content/article_dropzone/article_dropzone/promobox_0.img.288.high.jpg/1443607242297.jpg">
+
+							<br>
+							<P class="text-center">
+								Isaac Cura
+								<br>
+								icura@tge.com.mx
+								<br>
+								Ext. 101
+							</P>
+						</div>
+
+						<div class="col-md-3"><img src="img/Clientes/TPLink.jpg" class="logo img-responsive">
+							<img  class="col-md-8 col-md-offset-2 img-responsive circle" src="http://www.bp.com/content/bp/en/global/corporate/about-bp/board-and-executive-management/executive-team/jcr:content/article_dropzone/article_dropzone/promobox_0.img.288.high.jpg/1443607242297.jpg">
+
+							<br>
+							<P class="text-center">
+								Isaac Cura
+								<br>
+								icura@tge.com.mx
+								<br>
+								Ext. 101
+							</P>
+						</div>
+
+					</div>
+				</div>
+
+				<!--<div data-configid="0/36889554" style="width:100px; height:200px;" class="issuuembed"></div><script type="text/javascript" src="//e.issuu.com/embed.js" async="true"></script>
+				-->
+
+			</div>
+
+
+
+			<div id="proximos" class="collapse proximos">
+				<h1>Proximos</h1>
+			</div>
+			<div id="galeria" class="collapse">
+				<h1>Promotores</h1>
+			</div>
+			<div id="anteriores" class="collapse">
+				<h1>Promotores</h1>
+			</div>
+
+		</div>
+
+		<div id="clientes" class="clientes">
+
+			<h1>CLIENTES</h1>
+			<div class="col-md-3">
+				<a href="https://www.schneider-electric.com/tools/registration/promo/MX/ls/getpromo/43821b/"><img src="http://tecnoguiaempresarial.com.mx/wp-content/uploads/2015/03/998-1174152_308x343_MX-Tecnoguia-March.gif"></a>
+			</div>
+			<div class="col-md-9">
+
+				<div id="CarrClientes" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#CarrClientes" data-slide-to="0" class="active"></li>
+						<li data-target="#CarrClientes" data-slide-to="1"></li>
+						<li data-target="#CarrClientes" data-slide-to="2"></li>
+						<li data-target="#CarrClientes" data-slide-to="3"></li>
+						<li data-target="#CarrClientes" data-slide-to="4"></li>
+						<li data-target="#CarrClientes" data-slide-to="5"></li>
+						<li data-target="#CarrClientes" data-slide-to="6"></li>
+
+					</ol>
+					<div class="carousel-inner" role="listbox">
+
+						<div class="item active">
+
+							<ul>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Microsoft.png">
+
+								</li>
+
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Verbatim.JPG">
+
+								</li>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Provision.jpg">
+
+								</li>
+							</ul>
+
+						</div>
+
+						<div class="item">
+
+							<ul>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Silimex.jpg">
+
+								</li>
+
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/TPLink.jpg">
+
+								</li>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/CDP.jpg">
+
+								</li>
+							</ul>
+
+						</div>
+						<div class="item">
+
+							<ul>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/watchguard.png">
+
+								</li>
+
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Panasonic.jpg">
+
+								</li>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Panda.jpg">
+
+								</li>
+							</ul>
+
+						</div>
+						<div class="item">
+
+							<ul>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Compucenter.png">
+
+								</li>
+
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Checkpoint.jpg">
+
+								</li>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Fujitsu.jpg">
+
+								</li>
+							</ul>
+
+						</div>
+						<div class="item">
+
+							<ul>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Techdata.png">
+
+								</li>
+
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Safenet.jpg">
+
+								</li>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Qlikview.jpg">
+
+								</li>
+							</ul>
+
+						</div>
+						<div class="item">
+
+							<ul>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Microsip.jpg">
+
+								</li>
+
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Epson.png">
+
+								</li>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/WD.jpg">
+
+								</li>
+							</ul>
+
+						</div>
+						<div class="item">
+
+							<ul>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/Acteck.jpg">
+
+								</li>
+
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/GrupoDusof.gif">
+
+								</li>
+								<li>
+									<img  class=" cliente img-responsive" src="img/Clientes/CDP.jpg">
+
+								</li>
+							</ul>
+
+						</div>
+
+					</div>
+
+					<a class="left carousel-control" href="#CarrClientes" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+					<a class="right carousel-control" href="#CarrClientes" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div id="contacto" class="contacto">
+			<h1 class="dark">CONTACTO</h1>
+
+			<div class="row">
+
+				<div class="col-md-1"></div>
+				<DIv class="col-md-4 centerall">
+
+					<img  height="80"  src="img/logo.png">
+
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5105289358658!2d-89.64669168566172!3d21.012248993719005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5674168af3edff%3A0x4b0edd99b5c31e35!2sTecnoGu%C3%ADa+Empresarial!5e0!3m2!1ses-419!2smx!4v1467046078529"
+					width="100%" height="80%" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+					<br>
+					<br>
+					<div class="row">
+						<p class="text-center">
+							C. 34  Num. 291
+							<br>
+							Entre 21 y 21 A
+							<br>
+							San Vicente Chuburná
+							<br>
+							Mérida, Yucatán
+
+							C.P.97206
+							<br>
+							<br>
+							Tel.  999 9 85 64 74
+						</p>
+					</div>
+					<br>
+					<div class="row">
+						<!--<a class="btn btn-social-icon btn-twitter"> <span class="fa fa-twitter"></span> </a>-->
+						<a href="https://www.facebook.com/tecnoguiaempresarial/?fref=ts"  class="btn btn-social-icon btn-facebook"> <span class="fa fa-facebook"></span> </a>
+						<a href="https://www.linkedin.com/company/3810574?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A3810574%2Cidx%3A1-1-1%2CtarId%3A1467044860084%2Ctas%3Atecnoguia%20" class="btn btn-social-icon btn-linkedin"> <span class="fa fa-linkedin"></span> </a>
+						<a href="https://plus.google.com/u/0/+TecnoGu%C3%ADaEmpresarialM%C3%A9rida/about/p/pub" class="btn btn-social-icon btn-google"> <span class="fa fa-google"></span> </a>
+						<a href="https://issuu.com/tecnoguiaempresarial" class="btn btn-social-icon btn-soundcloud		"> <span><img src="img/iconos/issuu.png" /></span> </a>
+
+					</div>
+					<br>
+				</DIv>
+				<div class="col-md-1"></div>
+				<div class="col-md-5">
+					<br>
+					<h4>Envíanos un mensaje:</h4>
+					<form method="post" name="emailform" action="php/form-to-email.php" class="form-horizontal" role="form">
+						<div class="form-group">
+
+							<label class="control-label col-sm-2" for="name">Nombre</label>
+
+							<input class="form-control col-sm-10 tge-form" type="text" name="name" placeholder="Escribe tu nombre">
+							<br>
+							<label class="control-label col-sm-2" for="correo">Correo</label>
+							<input class="form-control col-sm-10 tge-form" type="email" name="email" placeholder="Escribe tu correo">
+							<br>
+							<label class="control-label col-sm-2" for="telefono">Teléfono</label>
+							<input class="form-control col-sm-10 tge-form" type="tel" name="telefono" placeholder="Escribe tu teléfono">
+							<br>
+
+							<label class="control-label col-sm-2" for="comentarios">Comentarios</label>
+							<textarea class="form-control col-sm-10 tge-form" rows="5" name="comentarios" placeholder="Escribe tus comentarios">
+						</textarea>
+							<button style="margin-top:15px" type="submit" class="btn btn-tge pull-right">
+								Enviar
+							</button>
+
+						</div>
+
+					</form>
+
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+			<div class="row text-center">
+				<!-- Trigger the modal with a button -->
+				<a type="button" data-toggle="modal" data-target="#aviso">Aviso de privacidad</a>
+
+				<!-- Modal -->
+				<div id="aviso" class="modal fade" role="dialog">
+					<div class="modal-dialog">
+
+						<!-- Modal content-->
+						<div class="modal-content aviso">
+
+							<div class="modal-body">
+
+								<button type="button" class="close" data-dismiss="modal">
+									&times;
+								</button>
+								<h2 class="modal-title text-center">AVISO DE PRIVACIDAD</h2>
+								<br>
+								<p>
+									El objetivo de contactarle a través de nuestros agentes de telemarketing especializados o vía correo electrónico es generar una vínculo comercial de su empresa con marcas de tecnología, sin embargo, no es nuestra voluntad ocasionar algún perjucio, por lo que usted puede solicitar en cualquier momento ser eliminado de nuestra base de datos enviando un correo con sus datos a <a href"eliminar@tecnoguiaempresarial.com.mx">eliminar@tecnoguiaempresarial.com.mx</a> o de manera automática en el siguiente link: <a href="http://tecnoguiaempresarial.com.mx/cancelarregistro/">CANCELACIÓN</a>
+								</p>
+								<button type="button" class="btn btn-tge pull-right" data-dismiss="modal">
+									Cerrar
+								</button>
+							</div>
+							<br>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		</div>
+
+	</body>
+
+	<script>
+		$("[data-toggle=popover]").popover({
+			html : true,
+			trigger : "hover",
+			content : function() {
+				return $('#popover-content').html();
+			}
+		});
+	</script>
+	<script src="../../dist/js/bootstrap.min.js"></script>
+	<script>
+		$('.carousel').carousel({
+			interval : 3000
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+			$('a[href^="#"]').on('click', function(e) {
+				e.preventDefault();
+
+				var target = this.hash,
+				    $target = $(target);
+
+				$('html, body').stop().animate({
+					'scrollTop' : $target.offset().top
+				}, 900, 'swing', function() {
+					window.location.hash = target;
+				});
+			});
+		});
+	</script>
+
+	<script>
+		$(document).ready(function() {
+
+			$(".btn-promo").click(function(e) {
+				e.preventDefault();
+				$(".promo").collapse('show');
+
+				$("body, html").animate({
+					scrollTop : $($(this).attr('href')).offset().top
+				}, 600);
+			});
+			$(".btn-galeria").click(function(e) {
+				e.preventDefault();
+				$(".promo").collapse('show');
+
+				$("body, html").animate({
+					scrollTop : $($(this).attr('href')).offset().top
+				}, 600);
+			});
+			$(".btn-proximos").click(function(e) {
+				e.preventDefault();
+				$(".proximos").collapse('show');
+
+				$("body, html").animate({
+					scrollTop : $($(this).attr('href')).offset().top
+				}, 600);
+			});
+			$(".btn-anteriores").click(function(e) {
+				e.preventDefault();
+				$(".promo").collapse('show');
+
+				$("body, html").animate({
+					scrollTop : $($(this).attr('href')).offset().top
+				}, 600);
+			});
+
+		});
+	</script>
+	<script>
+		function loader() {
+
+			document.getElementById("content").style.display = "initial";
+			document.getElementById("loader").style.display = "none";
+
+		}
+	</script>
+
+</html>

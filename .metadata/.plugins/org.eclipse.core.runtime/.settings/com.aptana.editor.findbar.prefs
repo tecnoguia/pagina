@@ -1,3 +1,4 @@
-FIND_BAR_DECORATOR_FIND_ENTRIES=\#\r\n\#Mon Jul 04 12\:15\:59 CDT 2016\r\n8\=servi\r\n7\=.jpg\r\n6\=CarrContent\r\n5\=CarrConten\r\n4\=serv\r\n3\=carr\r\n2\=15\r\n1\=TGE\r\n0\=padding\r\n
-FIND_BAR_DECORATOR_REPLACE_ENTRIES=\#\r\n\#Fri Jul 01 10\:49\:07 CDT 2016\r\n0\=autoplay\\\=0\r\n
+FIND_BAR_DECORATOR_FIND_ENTRIES=\#\r\n\#Tue Jul 05 12\:49\:25 CDT 2016\r\n19\=CarrConten\r\n18\=15\r\n17\=TGE\r\n16\=padding\r\n15\=cliente\r\n14\=CLIEN\r\n13\=CLIENtes\r\n12\=CLIENte\r\n11\=inline\r\n10\=100\r\n9\=background-image\r\n8\=header\r\n7\=carr\r\n6\=img\r\n5\=CarrServicios\r\n4\=Servicios\r\n3\=serv\r\n2\=over\r\n1\=\\ over\r\n0\=.over\r\n
+FIND_BAR_DECORATOR_REPLACE_ENTRIES=\#\r\n\#Tue Jul 05 12\:42\:44 CDT 2016\r\n1\=autoplay\\\=0\r\n0\=servicios\r\n
+com.aptana.editor.findbar.caseSensitiveFindBar=true
 eclipse.preferences.version=1
